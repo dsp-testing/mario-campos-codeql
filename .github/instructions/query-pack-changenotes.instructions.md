@@ -13,7 +13,7 @@ applyTo: >
   swift/ql/src/change-notes/*.md
 ---
 
-# Standards for validating query-pack change notes
+# Validation guide for query-pack change notes
 
 When performing a code review, ensure that the Markdown change-notes in the pull request meet the following standards:
 
