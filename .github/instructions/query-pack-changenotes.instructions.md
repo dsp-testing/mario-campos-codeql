@@ -5,6 +5,7 @@ applyTo: >
   csharp/ql/src/change-notes/*.md,
   go/ql/src/change-notes/*.md,
   java/ql/src/change-notes/*.md,
+  javascript/ql/src/change-notes/*.md,
   python/ql/src/change-notes/*.md,
   ql/ql/src/change-notes/*.md,
   ruby/ql/src/change-notes/*.md,
@@ -53,7 +54,6 @@ The file must begin with YAML frontmatter. Valid YAML frontmatter properties inc
   - Optional
   - A list of string tags.
 
-
 ### Categories
 | Category         | Description |
 |------------------|-------------|
@@ -83,7 +83,7 @@ tags: cpp
 
 #### Invalid
 
-##### Missing `category`
+##### Missing `category` property
 
 ```yaml
 ---
@@ -91,11 +91,11 @@ tags: cpp
 ---
 ```
 
-##### Invalid category
+##### Invalid category `bug`; use `fix` instead
 
 ```yaml
 ---
-category: other
+category: bug
 ---
 ```
 
