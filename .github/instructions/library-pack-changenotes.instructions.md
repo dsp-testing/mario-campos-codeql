@@ -9,10 +9,18 @@ applyTo: >
   python/ql/lib/change-notes/*.md,
   ruby/ql/lib/change-notes/*.md,
   rust/ql/lib/change-notes/*.md,
+  shared/mad/change-notes/*.md,
+  shared/quantum/change-notes/*.md,
+  shared/regex/change-notes/*.md,
+  shared/ssa/change-notes/*.md,
+  shared/typos/change-notes/*.md,
+  shared/util/change-notes/*.md,
+  shared/xml/change-notes/*.md,
+  shared/yaml/change-notes/*.md,
   swift/ql/lib/change-notes/*.md
 ---
 
-# Change-note review standards
+# Validation guide for library-pack change notes
 
 When performing a code review, ensure that the Markdown change-notes in the pull request meet the following standards:
 
