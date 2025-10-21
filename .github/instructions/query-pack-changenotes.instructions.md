@@ -15,7 +15,7 @@ applyTo: >
 
 # Validation guide for query-pack change notes
 
-When performing a code review, ensure that the Markdown change-notes in the pull request meet the following standards:
+When performing a code review, ensure that the change-notes in the pull request meet the following standards. If possible, offer a code suggestion to fix the problem.
 
 ## File name
 The file name must match this pattern: `YYYY-MM-DD-description.md`
