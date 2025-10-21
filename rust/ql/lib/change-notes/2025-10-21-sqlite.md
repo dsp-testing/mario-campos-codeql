@@ -1,0 +1,4 @@
+---
+category: newQuery
+---
+* Added models for the `sqlite` and `sqlite_async` libraries.
