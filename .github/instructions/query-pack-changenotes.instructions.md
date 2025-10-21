@@ -10,18 +10,10 @@ applyTo: >
   ql/ql/src/change-notes/*.md,
   ruby/ql/src/change-notes/*.md,
   rust/ql/src/change-notes/*.md,
-  shared/mad/change-notes/*.md,
-  shared/quantum/change-notes/*.md,
-  shared/regex/change-notes/*.md,
-  shared/ssa/change-notes/*.md,
-  shared/typos/change-notes/*.md,
-  shared/util/change-notes/*.md,
-  shared/xml/change-notes/*.md,
-  shared/yaml/change-notes/*.md,
   swift/ql/src/change-notes/*.md
 ---
 
-# Change-note review standards
+# Standards for validating query-pack change notes
 
 When performing a code review, ensure that the Markdown change-notes in the pull request meet the following standards:
 
